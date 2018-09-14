@@ -1,0 +1,31 @@
+/* div{
+    border:1px solid red;
+} */
+/*导航栏*/
+#container{
+    width:100%;color:#FFFFFF;font-size:bold;
+    background:#000000;}
+/* #subnav{
+    height:50px;line-height:50px;margin:0px 2px;
+
+} */
+#menu ul>li:hover{
+    color:#000;
+    background-color:#fff;
+}
+
+/*页脚*/
+#footer{
+    text-align:center;
+    margin:50px 50px;
+}
+#ul>li{
+    padding:10px;
+}
+#ul>li>a{
+    color:#000;
+    font-size:15px;
+}
+#ul>span{
+    padding:10px;
+}

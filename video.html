@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/video.css">
+</head>
+<body>
+    <!--引入头部-->
+    <div id="header"></div>
+    <!--主体-->
+    <div class="container text-center">
+        /*文字内容*/
+        <div class="row" id="tv">
+            <div class="col-xs-12 col-sm-12">
+                <div>
+                    <img src="img/height_40.png"/>
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                    <input type="text" class="navbar-right" placeholder="搜索">
+                </div>
+                <div id="f1">
+                    <span>新品</span>
+                    <span>热门视频</span>   
+                    <span>DIOR迪奥电视频道</span>
+                    <span>所有视频</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <video src="mp4/m1.mp4" controls style="width:1000px;height:600px">
+                </video>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="font1">新品</p>
+                <p class="font2">2018-19秋冬季高级定制系列时装秀--精选</p>
+                <p class="font3">
+                    <a href="#">更多视频</a>
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 更多视频 -->
+    <div class="container">
+        <div class="row" id="v">
+            <div class="col-xs-12" >
+                <video class="v1" src="mp4/m1.mp4" controls></video>
+                <video class="v1" src="mp4/m2.mp4" controls></video>
+                <video class="v1" src="mp4/m3.mp4" controls></video>
+            </div>
+            <div class="col-xs-12">
+                <video class="v1" src="mp4/m1.mp4" controls></video>
+                <video class="v1" src="mp4/m2.mp4" controls></video>
+                <video class="v1" src="mp4/m3.mp4" controls></video>
+            </div>            
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/hader.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

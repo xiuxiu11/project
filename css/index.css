@@ -1,0 +1,80 @@
+/* body{
+    border:1px solid red;
+} */
+#nav{
+    width:100%;
+    text-align:center;
+    margin-top:45px;
+}
+#dior{
+    font-size:35pt;
+    font-family: "dior-iconfont";
+    display:block;
+
+}
+span:first-letter{
+    font-size: 1.5em;
+    padding: 0.1em;
+    color: #000000;
+}
+
+/*轮播*/
+#myCarousel{
+    margin:0 auto;
+    width:100%;
+}
+
+
+/*主体一*/
+.container{
+    margin:0 auto;
+    width:100%;
+    margin-top:40px;
+}
+
+/*左边内容*/
+#sidebar{
+    margin-top:145px;
+}
+ /*#left p{
+   padding:0.3em 0em;
+}*/
+#border{
+    width:30vw;
+    height:0vm;
+    border :1px solid rgb(158, 155, 155);  
+    border-width:1px 1px;
+    text-align:center;
+
+}
+
+span.search a{
+    display: inline-block;
+    width:100px;
+    height:25px;
+    color:#fff;
+    background:rgb(73, 72, 72);
+    text-align:center;
+    line-height: 25px;
+    margin-top:20px;
+    margin-left:112px;
+}
+
+
+
+/*主体部分二*/
+
+/*左边内容*/
+
+
+
+
+/*主体部分四*/
+#font{
+    margin-top:10px;
+}
+#img img{
+    margin-top:15px;
+}
+
+
